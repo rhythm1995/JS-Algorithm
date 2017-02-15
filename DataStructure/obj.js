@@ -1,28 +1,52 @@
-//定义和使用 Checking 对象
+function List() {
+    this.listSize = 0;
+    this.pos = 0;
+    this.dataStore = [];
 
-function Checking(amount) {
-    this.balance = amount;
-    this.deposit = deposit;
-    this.withdraw = withdraw;
+
+
+    /*
+    this.clear = clear;
     this.toString = toString;
+    this.insert = insert;
+    this.append = append;
+    this.remove = remove;
+    this.front = front;
+    this.end = end;
+    this.prev = prev;
+    this.next = next;
+    this.length = length;
+    this.currPos = currPos;
+    this.moveTo = moveTo;
+    this.getElement = getElement;
+    this.contains = contains;
+    */
 }
-function deposit(amount) {
-    this.balance += amount;
+
+// append添加元素
+function append(element) {
+    this.dataStore[this.listSize++] = element;
 }
-function withdraw(amount) {
-    if (amount <= this.balance) {
-        this.balance -= amount;
+
+// find查找元素
+function find() {
+    for(var i=0;i<=this.dataStore.length;++i){
+        if(this.dataStore[i] == element){
+            return i;
+        }
     }
-    if (amount > this.balance) {
-        console.log("Insufficient funds");
-    } }
-function toString() {
-    return "Balance: " + this.balance;
+    return -1;
 }
-var account = new Checking(500);
-account.deposit(1000);
-console.log(account.toString());
-account.withdraw(750);
-console.log(account.toString());
-account.withdraw(800);
-console.log(account.toString());
+
+//toString 现实当前元素
+function toString() {
+    return this.dataStore;
+}
+
+var names = new List();
+names.append("a");
+names.append("b");
+names.append("c");
+console.log(names.toString);
+names.remove("a");
+console.log(names.toString);
