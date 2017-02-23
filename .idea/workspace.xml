@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2486c6c-31dc-4be8-b9a2-f42006a8f2d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/readme.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form/form.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-5.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dom-Scripting-Web-Design/1.png" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/images/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dom-Scripting-Web-Design/2.png" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/images/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dom-Scripting-Web-Design/3.png" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/images/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dom-Scripting-Web-Design/4.png" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/images/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html" afterPath="$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-4.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js-dom.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html">
+      <file leaf-file-name="js-dom-4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+            <state relative-caret-position="-595">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js-dom-5.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -82,6 +90,7 @@
         <option value="$PROJECT_DIR$/DesignPatterns/singleton.js" />
         <option value="$PROJECT_DIR$/form/form.html" />
         <option value="$PROJECT_DIR$/Dom-Scripting-Web-Design/readme.md" />
+        <option value="$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-5.html" />
       </list>
     </option>
   </component>
@@ -168,7 +177,11 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dom-Scripting-Web-Design/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dom-Scripting-Web-Design" />
       <recent name="$PROJECT_DIR$/form" />
     </key>
   </component>
@@ -249,12 +262,12 @@
       <workItem from="1487678207393" duration="13422000" />
       <workItem from="1487837621825" duration="1372000" />
       <workItem from="1487840493614" duration="1437000" />
-      <workItem from="1487851854339" duration="1615000" />
+      <workItem from="1487851854339" duration="2326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24216000" />
+    <option name="totallyTimeSpent" value="24927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1235" height="777" extended-state="6" />
@@ -305,7 +318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html">
+    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -321,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html">
+    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -354,10 +367,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom.html">
+    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        <state relative-caret-position="-595">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dom-Scripting-Web-Design/js-dom-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="44" column="64" lean-forward="false" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
           <folding />
         </state>
       </provider>
