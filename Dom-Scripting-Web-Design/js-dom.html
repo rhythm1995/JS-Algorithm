@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: "Helvetica","Arial",serif;
+            color: #333;
+            background: #ccc;
+            margin: 1em 10%;
+        }
+        h1{
+            color: #333;
+            background-color: transparent;
+        }
+        a{
+            color: #c60;
+            background-color: transparent;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            float: left;
+            padding: 1em;
+            list-style: none;
+        }
+        img{
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<h1>Photo</h1>
+<ul>
+    <li><a href="1.png" title="1" onclick="showPic(this); return false;">1</a></li>
+    <li><a href="2.png" title="2" onclick="showPic(this); return false;">2</a></li>
+    <li><a href="3.png" title="3" onclick="showPic(this); return false;">3</a></li>
+    <li><a href="4.png" title="4" onclick="showPic(this); return false;">4</a></li>
+</ul>
+<img src="1.png" id="placeholder" alt="my image gallery" width="300px">
+<p id="description">Choose an image</p>
+<script>
+    function showPic(whichpic) {
+        var source = whichpic.getAttribute("href");
+        var placeholder = document.getElementById("placeholder");
+        placeholder.setAttribute("src",source);
+        var text = whichpic.getAttribute("title");
+        var description = document.getElementById("description");
+        description.firstChild.nodeValue = text;
+    }
+    function countBodyChildren() {
+        var body_element = document.getElementsByTagName("body")[0];
+        alert(body_element.childNodes.length);
+    }
+</script>
+</body>
+</html>
