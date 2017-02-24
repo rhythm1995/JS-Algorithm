@@ -36,11 +36,11 @@
 </head>
 <body>
 <h1>Photo</h1>
-<ul>
-    <li><a href="images/1.png" title="1" onclick="showPic(this); return false;">1</a></li>
-    <li><a href="images/2.png" title="2" onclick="showPic(this); return false;">2</a></li>
-    <li><a href="images/3.png" title="3" onclick="showPic(this); return false;">3</a></li>
-    <li><a href="images/4.png" title="4" onclick="showPic(this); return false;">4</a></li>
+<ul id="imagegallery">
+    <li><a href="images/1.png" title="1">1</a></li>
+    <li><a href="images/2.png" title="2">2</a></li>
+    <li><a href="images/3.png" title="3">3</a></li>
+    <li><a href="images/4.png" title="4">4</a></li>
 </ul>
 <img src="images/1.png" id="placeholder" alt="my image gallery" width="300px">
 <p id="description">Choose an image</p>
@@ -53,10 +53,33 @@
         var description = document.getElementById("description");
         description.firstChild.nodeValue = text;
     }
-    function countBodyChildren() {
-        var body_element = document.getElementsByTagName("body")[0];
-        alert(body_element.childNodes.length);
+    function prepareLinks() {
+        var links = document.getElementsByTagName("a");
+        for (var i=0;i<links.length;i++){
+            if (links[i].getAttribute("class") == "popup"){
+                links[i].onclick = function () {
+                    popUp(this.getAttribute("href"));
+                    return false;
+                }
+            }
+        }
     }
+    function popUp(winURL) {
+        window.open(winURL,"popop","width=320,height=480");
+    }
+    window.onload = prepareLinks;
+
+    function parpareGallery() {
+        if(!document.getElementsByTagName || !document.getElementById) return false;
+        if(!document.getElementById("imagegallery")) return false;
+        var gallery = document.document.getElementById("imagegallery");
+        var links = gallery.getElementsByTagName("a");
+        for(var i=0;i<links.length;i++){
+            showPic(this);
+            return false;
+        }
+    }
+
 </script>
 </body>
 </html>
