@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中元素</title>
+    <style>
+        .parent1{
+            position: relative;
+        }
+        .child1{
+            width: 200px;
+            height: 200px;
+            background-color: #cc6600;
+
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .child2{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .parent3{
+        }
+        .child3{
+            text-align: center;
+        }
+
+        .parent4{
+            text-align: center;
+        }
+        .child4{
+            width: 200px;
+            height: 200px;
+            background-color: steelblue;
+
+            display: inline-block;
+        }
+
+        .child5 {
+            width: 200px;
+            height: 200px;
+            background-color: crimson;
+
+            float: left;
+            position: relative;
+            left: 50%;
+            margin-left: -50px;
+        }
+    </style>
+</head>
+<body>
+<div class="parent1">
+    <h1>1.元素的宽高未知：CSS3 transform </h1>
+    <div class="child1"></div>
+</div>
+<div class="parent2">
+    <h1>2.Flex 布局</h1>
+    <p>适用于子元素为浮动，绝对定位，内联元素，均可水平居中。</p>
+    <div class="child2"></div>
+</div>
+
+<div class="parent3">
+    <h1>3.居中的元素为常规文档流中的内联元素</h1>
+    <div class="child3">内联元素才可以</div>
+</div>
+
+<h1>4.居中的元素为常规文档流中的块元素</h1>
+<div class="parent4">
+    <div class="child4">这是块级元素</div>
+</div>
+
+<h1>5.居中的元素为浮动元素</h1>
+<div class="parent5">
+    <div class="child5">这是浮动元素</div>
+</div>
+</body>
+</html>
