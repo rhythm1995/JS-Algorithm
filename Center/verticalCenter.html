@@ -2,9 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>垂直居中</title>
+    <style>
+        .parent1{
+            height: 500px;
+            border: 5px solid forestgreen;
+        }
+        .child1{
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            margin: auto;
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .parent2{
+            display: flex;
+            align-items: center;
+        }
+        .child2{
+            line-height: 200px;
+            height: 200px;
+        }
+
+        .parent3{
+            position: relative;
+            border: 5px solid forestgreen;
+        }
+        .child3{
+            position: absolute;
+            top:50%;
+            background-color: deeppink;
+            margin-top: -50px;
+
+        }
+    </style>
 </head>
 <body>
+<h1>1.绝对居中定位</h1>
+<div class="parent1">
+    <div class="child1"></div>
+</div>
 
+<h1>2.Flex 布局</h1>
+<h2>居中元素为单行文本</h2>
+<div class="parent2">
+    <div class="child2">居中元素为单行文本</div>
+</div>
+<h2>已知元素宽高</h2>
+<div class="parent3">
+    <div class="child3"></div>
+</div>
 </body>
 </html>
